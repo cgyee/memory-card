@@ -1,0 +1,33 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    min-width: 100px;
+    height: 416px;
+    min-height: 350px;
+    margin: 20px 0;
+    
+}
+
+.card--image {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
